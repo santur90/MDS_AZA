@@ -48,7 +48,7 @@ N_ESTIMATORS_RANGE = (50, 200, 10)        # Range for number of trees: (start, s
 MAX_DEPTH_RANGE = (5, 20, 2)              # Range for tree depth
 FEATURE_K_RANGE = (10, 100, 10)           # Range for number of selected features
 CV_FOLDS = 5                               # Number of cross-validation folds
-RANDOM_STATE = 42                          # For reproducibility
+RANDOM_STATE = 43                          # For reproducibility
 SCORING_METRIC = "accuracy"                # Evaluation metric
 
 print("="*70)
