@@ -1,0 +1,27 @@
+name: mds-aza-analysis
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - cutadapt
+  - bismark
+  - bowtie2
+  - samtools
+  - trim-galore
+  - fastqc
+  - star
+  - subread
+  - multiqc
+  - r-base
+  - bioconductor-bsseq
+  - bioconductor-genomicranges
+  - bioconductor-iranges
+  - bioconductor-deseq2
+  - r-methylkit
+  - r-pheatmap
+  - python
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
